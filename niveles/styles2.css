@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Rubik+Spray+Paint&display=swap');
+
+body{
+    background-image: url(/img/backgrounds/nivel1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.puerta{
+    height: 110px;
+    width: 110px;
+    background-image: url(/img/sprites/puerta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.puerta_abierta{
+    height: 110px;
+    width: 110px;
+    background-image: url(/img/sprites/puerta_abierta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#puerta{
+    position: absolute;
+    top: 1%;
+}
+
+.boton{
+    height: 40px;
+    width: 90px;
+    background-image: url(/img/sprites/boton.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#boton1{
+    position: absolute;
+    top: 81%;
+    left: 60%;
+}
+
+.boton-pulsado{
+    height: 40px;
+    width: 90px;
+    background-image: url(/img/sprites/boton_pulsado.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.zona-suelo{
+    height: 20%;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    z-index: 0;
+    align-items: self-end;
+    background-color: aqua;
+    opacity: 40%;
+    clip-path: polygon(0 30%, 10% 20%, 30% 25%, 50% 20%, 70% 25%, 90% 20%, 100% 30%, 100% 100%, 0 100%);
+
+}
+
+.plataforma{
+    margin-top: auto;
+    z-index: 0;
+    position: absolute;
+    align-items: self-end;
+    background-color: rgb(70, 105, 194);
+}
+
+#plataforma0{
+    height: 3%;
+    width: 20%;
+    top: 83%;
+    left: 75%;
+}
+
+#plataforma1{
+    height: 30px;
+    width: 150px;
+    top: 40%;
+    left: 55%;
+}
+
+#plataforma2{
+    height: 30px;
+    width: 150px;
+    top: 32%;
+    left: 35%;
+}
+
+#plataforma3{
+    height: 30px;
+    width: 150px;
+    top: 22%;
+    left: 15%;
+}
+
+#plataforma4{
+    height: 30px;
+    width: 150px;
+    top: 12%;
+    left: 33%;
+}
