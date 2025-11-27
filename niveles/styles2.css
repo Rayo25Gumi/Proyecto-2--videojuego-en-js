@@ -32,7 +32,8 @@ body{
 
 #puerta{
     position: absolute;
-    top: 1%;
+    top: 1.4%;
+    left: 20%;
 }
 
 .boton{
@@ -48,6 +49,12 @@ body{
     position: absolute;
     top: 81%;
     left: 60%;
+}
+
+#boton2{
+    position: absolute;
+    top: 25.5%;
+    left: 50%;
 }
 
 .boton-pulsado{
@@ -90,27 +97,42 @@ body{
 #plataforma1{
     height: 30px;
     width: 150px;
-    top: 40%;
-    left: 55%;
+    top: 14%;
+    left: 60%;
 }
 
 #plataforma2{
     height: 30px;
-    width: 150px;
-    top: 32%;
-    left: 35%;
+    width: 10%;
+    top: 29%;
+    left: 45%;
 }
 
 #plataforma3{
     height: 30px;
     width: 150px;
-    top: 22%;
-    left: 15%;
+    top: 12%;
+    left: 20%;
 }
 
 #plataforma4{
     height: 30px;
     width: 150px;
-    top: 12%;
+    top: 20%;
     left: 33%;
+}
+
+.personaje{
+    height: 40px;
+    width: 90px;
+    background-image: url(/img/sprites/boton.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#boton1{
+    position: absolute;
+    top: 81%;
+    left: 60%;
 }
