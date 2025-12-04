@@ -121,18 +121,52 @@ body{
     top: 20%;
     left: 33%;
 }
-
 .personaje{
-    height: 40px;
+    height: 80px;
     width: 90px;
-    background-image: url(/img/sprites/boton.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#boton1{
+#personaje1{
+    background-image: url(/img/sprites/personaje1.png);
     position: absolute;
-    top: 81%;
-    left: 60%;
+    top: 76%;
+    left: 10%;
+}
+
+#personaje2{
+    background-image: url(/img/sprites/presonaje2.png);
+    /* background-color: black; */
+    position: absolute;
+    top: 76%;
+    left: 17%;
+}
+
+#llave {
+    position: absolute;
+    top: 10%;    
+    left: 34%;
+    width: 60px;
+    height: 60px;
+    background-image: url("/img/sprites/llave.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    z-index: 20;
+}
+#reloj {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    padding: 10px 18px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    font-size: 24px;
+    font-family: 'Chewy', sans-serif;
+    border-radius: 10px;
+    z-index: 50; /* para que no lo tapen las plataformas */
 }
